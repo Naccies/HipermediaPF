@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Next Music</title>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/bddManager.js"></script>
+    <script type="text/javascript" src="js/echonest.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+  </head>
+  <body>
+  
+    <nav id="navbarSup" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a id="navbar-brand-top" class="navbar-brand-top"><img src="images/logo2.png"/></a>
+        </div>
+        <div id="navbar_top" class="navbar-collapse collapse">
+          <form id="buscador" class="navbar-form navbar-right" role="form" action="" method="post">
+            <input id="query" type="text" placeholder="Canción/Albumes/Artistas" value="" class="form-control">
+            <button id="search_btn" type="submit" class="btn btn-success" value="submit"><span class="glyphicon glyphicon-search"></span> Buscar</button>
+          </form>
+        </div>
+      </div>
+      
+    </nav>
+     <nav id="navbarSup2" class="navbar navbar-inverse navbar-fixed-top" >
+     </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="container-fluid">
+      <div class="col-sm-4" id="col_esq">
+      	<div id="listaRep"></div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Lo que esta sonando</h3>
+          </div>
+          <div id="hot" class="list-group">
+          </div>
+        </div>
+      </div> <!-- /col-sm-4 -->
+      
+      <div id="searchResults" class="col-sm-4">
+      	      <!--
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Artistas</h3>
+          </div>
+          <div id="hot" class="list-group">
+          </div>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Albumes</h3>
+          </div>
+          <div id="hot" class="list-group">
+          </div>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Canciones</h3>
+          </div>
+          <div id="hot" class="list-group">
+          </div>
+        </div> -->
+      </div>
+      
+      <div id="Playlists" class="col-sm-4">
+        <form id="buscador" class="navbar-form navbar-right" role="form" action="" method="post">
+          <input id="playlist_query" type="text" placeholder="Playlist" value="" class="form-control">
+          <button id="new_playlist_btn" type="submit" class="btn btn-success" value="submit"><span class="glyphicon glyphicon-list"></span> New Playlist
+          </button>
+        </form>
+        <div id="col_dret">
+        	
+        </div>
+      </div>
+    </div>
+    <footer>
+      <nav id="nav-bottom" class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+        <div class="container-fluid">
+          <div id="songInfo" class="navbar-header">
+            <a id="navbar-brand-bottom" class="navbar-brand-bottom"></a>
+          </div>
+          <div id="navbar_bottom" class="navbar-collapse collapse">
+          </div>
+        </div>
+      </nav>
+      <img id="imgArtist" src="./images/imagotipo.png" class="navbar navbar-inverse navbar-fixed-bottom"></img>
+    </footer>
+  </body>
+</html>
