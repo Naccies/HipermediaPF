@@ -1,4 +1,4 @@
-HipermediaPF
+NEXT MUSIC
 ============
 
-Repositorio dedicado a la práctica final de Hipermedia.
+NEXT MUSIC es una aplicación que proporciona una nueva experiencia para escuchar música.
