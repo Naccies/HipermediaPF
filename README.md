@@ -5,8 +5,9 @@ NEXT MUSIC es una aplicación "responsive" que proporciona una nueva experiencia
 
 Esta aplicación combina dos API's;
   
-  · [b]Echonest:[/b] Es nuestra gran fuente de información, nos proporciona información sobre las canciones, artistas, álbumes,   recomendaciones, imágenes...
-  · [b]Spotify:[/b] Nos proporciona las canciones para poderlas reproducir en nuestro reproductor.
+<b>·Echonest:</b> Es nuestra gran fuente de información, nos proporciona información sobre las canciones, artistas, álbumes,   recomendaciones, imágenes...
+
+Spotify: Nos proporciona las canciones para poderlas reproducir en nuestro reproductor.
   
 
 
