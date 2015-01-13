@@ -544,6 +544,7 @@
   /////////// add an item to the lista de reproduccion
   
   this.addItemToListaRep = function (response) {
+    console.log(response);
   	var fin=response.data.length;
   	var song,sub_item;
   	
